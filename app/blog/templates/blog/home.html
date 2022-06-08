@@ -2,5 +2,5 @@
 
 {% block content %}
 <p>Bienvenue! vous êtes connectés en tant que {{ request.user.get_username }}</p>
-<p><a href='{% url 'logout' %}'>Deconnexion</a></p>
+<p><a href='{% url 'password-change' %}'>Changer mot de passe</a> | <a href='{% url 'logout' %}'>Deconnexion</a></p>
 {% endblock content %}
