@@ -65,10 +65,10 @@ from authentication.forms import LoginForm
 #         'message': message,
 #     })
 
-@login_required
-def logout_user(request):
-    """
-    Logout the current connected user.
-    """
-    logout(request)
-    return redirect('login')
+# @login_required
+# def logout_user(request):
+#     """
+#     Logout the current connected user.
+#     """
+#     logout(request)
+#     return redirect('login')
